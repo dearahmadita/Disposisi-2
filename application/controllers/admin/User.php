@@ -27,8 +27,7 @@ $this->load->view('admin/template/main',$data);
 public function save(){
     $this->User_model->Save();
     if($this->db->affected_rows()>0){
-    $this->session->set_flashdata("success","Data user Berhasil D
-    iSimpan");
+    $this->session->set_flashdata("success","Data user Berhasil DiSimpan");
     }
     redirect('admin/user');
     }
@@ -52,4 +51,6 @@ public function save(){
     function delete($id) {
     $this->User_model->delete($id);
     redirect('admin/user');
-    } }
+    }
+}
+?>
