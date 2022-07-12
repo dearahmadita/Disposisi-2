@@ -42,8 +42,8 @@
                                                 <td>$user->role</td>
                                                 <td>
                                                 <div>
-                                                    <a href=".base_url('admin/user/getedit' . $user->id)." class='btn btn-sm btn-info'><i class='fas fa_edit'></i>Edit</a>
-                                                    <a href=".base_url('admin/user/delete' . $user->id)." class='btn btn-sm btn-danger' onclick='return confirm(\"Ingin menghapus data user ini?\");'><i class='fas fa_trash'></i>Hapus</a>
+                                                    <a href=".base_url('admin/user/getedit/' . $user->id)." class='btn btn-sm btn-info'><i class='fas fa_edit'></i>Edit</a>
+                                                    <a href=".base_url('admin/user/delete/' . $user->id)." class='btn btn-sm btn-danger' onclick='return confirm(\"Ingin menghapus data user ini?\");'><i class='fas fa_trash'></i>Hapus</a>
                                                 </div>
                                                 </td>
                                             </tr>";

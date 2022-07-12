@@ -8,6 +8,7 @@
         <meta name="author" content="" />
         <title>Login - Disposisi Surat</title>
         <link href="<?php base_url('assets/css/styles.css')?>" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymus"></script>
     </head>
 
     <body class="bg-primary">
