@@ -23,7 +23,7 @@
                     </div>
                     <div class="mb-3">
                         <label>SURAT DARI <code>*</code></label>
-                        <input type="text" class="form-control" name="surat_form" value="<?php $surat->surat_form;?>" required />
+                        <input type="text" class="form-control" name="surat_from" value="<?php $surat->surat_from;?>" required />
                     </div>
                     <div class="mb-3">
                         <label>TUJUAN SURAT <code>*</code></label>

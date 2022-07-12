@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <h1 class="mt-4"></h1>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="<?php echo site_url('admin/surat_masuk') ?>">User</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo site_url('admin/surat_masuk') ?>">Surat</a></li>
             <li class="breadcrumb-item active"><?php echo $title ?></li>
         </ol>
         <div class="card mb-4">
@@ -45,8 +45,8 @@
                                                 </td>
                                                 <td>
                                                 <div>
-                                                    <a href=".base_url('admin/surat_masuk/getedit/' . $user->id)." class='btn btn-sm btn-info'><i class='fas fa_edit'></i>Edit</a>
-                                                    <a href=".base_url('admin/surat_masuk/delete/' . $user->id)." class='btn btn-sm btn-danger' onclick='return confirm(\"Ingin menghapus data surat masuk ini?\");'><i class='fas fa_trash'></i>Hapus</a>
+                                                    <a href=".base_url('admin/surat_masuk/getedit/' . $suratdata->id)." class='btn btn-sm btn-info'><i class='fas fa_edit'></i>Edit</a>
+                                                    <a href=".base_url('admin/surat_masuk/delete/' . $suratdata->id)." class='btn btn-sm btn-danger' onclick='return confirm(\"Ingin menghapus data surat masuk ini?\");'><i class='fas fa_trash'></i>Hapus</a>
                                                 </div>
                                                 </td>
                                             </tr>";

@@ -42,7 +42,7 @@ class Surat_masuk extends CI_Controller {
         $data = array(
         'title' => 'Update Data Surat Masuk',
         'surat' => $this->Masuk_model->getById($id),
-        'content'=> 'admin/surat_masuk/edit_form'
+        'content'=> 'admin/surat_masuk/Edit_form'
         );
         $this->load->view('admin/template/main',$data);
     }
