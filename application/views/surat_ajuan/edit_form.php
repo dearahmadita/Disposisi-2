@@ -55,6 +55,6 @@
                 </form>
             </div>
         </div>
-        <div style="height: 100vh"></div>
+        div
     </div>
 </main>

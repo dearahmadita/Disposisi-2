@@ -11,11 +11,11 @@ class Template_model extends CI_Model
 
     public function save(){
         $data   = [
-            'nama'          => $this->input->post('no_surat'),
-            'tujuan_surat'  => $this->input->post('tgl_surat'),
-            'tgl_kirim'     => $this->input->post('surat_from'),
-            'perihal'       => $this->input->post('surat_to'),
-            'keterangan'    => $this->input->post('tgl_terima'),
+            'nama'          => $this->input->post('nama'),
+            'tujuan_surat'  => $this->input->post('tujuan_surat'),
+            'tgl_kirim'     => $this->input->post('tgl_kirim'),
+            'perihal'       => $this->input->post('perihal'),
+            'keterangan'    => $this->input->post('keterangan'),
             'is_active'     => '1',
 
         ];
