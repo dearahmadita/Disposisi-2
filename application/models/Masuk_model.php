@@ -90,5 +90,20 @@ class Masuk_model extends CI_Model
             return array_map('unlink', glob(FCPATH."assets/photo/surat_masuk/$file_name.*"));
         }
     }
+
+    public function saveAjuan(){
+        $data = [
+            'no_surat'      => $this->input->post('no_surat'),
+            'tgl_surat'     => $this->input->post('tgl_surat'),
+            'surat_from'    => $this->input->post('surat_from'),
+            'surat_to'      => $this->input->post('surat_to'),
+            'tgl_terima'    => '0000-00-00',
+            'perihal'       => $this->input->post('perihal'),
+            'keterangan'    => $this->input->post('keterangan'),
+            'image'         => $this->uploadImage(),
+            'is_active'     => '1',            
+        ];
+        $this->db->insert($this->_table,$data);
+    }
 }
 ?>

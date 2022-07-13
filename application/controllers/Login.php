@@ -54,7 +54,7 @@ class Login extends CI_Controller
                 } else {
                     //jika user tidak terdaftar
                     //echo "User Kadada";
-                    $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"> <b>Error :</b> User Tidka Terdaftar. </div>');
+                    $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"> <b>Error :</b> User Tidak Terdaftar. </div>');
                     redirect('/');
                 } 
         }        
